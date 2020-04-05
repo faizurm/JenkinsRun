@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: i verify mobiles are sorted according to the names
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 78.672 s <<< FAILURE! - in i verify mobiles are sorted according to the names
+i verify mobile r sorted according to the names(i verify mobiles are sorted according to the names)  Time elapsed: 78.672 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=80.0.3987.162)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FAIZUR', ip: '192.168.43.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.162, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\faizur\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51173}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0a55f2ca3c65f2d41ddf072db1f7fd7c
+*** Element info: {Using=xpath, value=//h2[contains(text(),'This is demo site for')]}
+
